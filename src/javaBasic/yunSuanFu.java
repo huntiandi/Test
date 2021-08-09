@@ -1,3 +1,5 @@
+package javaBasic;
+
 public class yunSuanFu {
 
     public static void main(String[] args) {

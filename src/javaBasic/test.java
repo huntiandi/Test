@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package javaBasic;
 
 public class test {
     public static void main(String[] args) {

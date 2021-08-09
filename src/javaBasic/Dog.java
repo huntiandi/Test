@@ -1,3 +1,5 @@
+package javaBasic;
+
 public class Dog {
     /**
      * 类的一些概念和修饰符的概念
