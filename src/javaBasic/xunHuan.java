@@ -22,5 +22,14 @@ public class xunHuan {
         for (String nnnn : names) {
             System.out.println("nnnn = " + nnnn);
         }
+
+        switch (0){
+            case 1 :
+                System.out.println("111111");
+            case 2 :
+                System.out.println("222222");
+            case 3 :
+                System.out.println("3333333");
+        }
     }
 }
