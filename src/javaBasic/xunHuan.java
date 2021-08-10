@@ -25,11 +25,14 @@ public class xunHuan {
 
         switch (0){
             case 1 :
-                System.out.println("111111");
+                System.out.println("111111");//没有break就会一直执行case，但不会全部打印
             case 2 :
-                System.out.println("222222");
+                System.out.println("222222");//有符合的case没有break就会把后面的case都执行直到遇到break
             case 3 :
-                System.out.println("3333333");
+                System.out.println("3333333");//遇到break就退出后面就不执行了
+                break;
+            default:
+                System.out.println("default");//没有case对应值才会执行
         }
     }
 }
