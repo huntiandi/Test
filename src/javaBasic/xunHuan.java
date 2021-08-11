@@ -32,7 +32,7 @@ public class xunHuan {
                 System.out.println("3333333");//遇到break就退出后面就不执行了
                 break;
             default:
-                System.out.println("default");//没有case对应值才会执行
+                System.out.println("\"default\"");//没有case对应值才会执行
         }
     }
 }
