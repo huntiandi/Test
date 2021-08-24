@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffff1230-e7ff-4105-a2e6-0d1796a40926" name="Default Changelist" comment="0810家里">
-      <change afterPath="$PROJECT_DIR$/src/javaBasic/stringDemo.java" afterDir="false" />
+    <list default="true" id="ffff1230-e7ff-4105-a2e6-0d1796a40926" name="Default Changelist" comment="0810家里2">
+      <change afterPath="$PROJECT_DIR$/src/javaBasic/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaBasic/readDog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaBasic/xunHuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaBasic/xunHuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaBasic/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaBasic/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +34,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wIc1jtWsqiKQPKcXp0H891fuUs" />
@@ -45,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -60,9 +69,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="Application.xunHuan">
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaBasic.test" />
+      <module name="TestCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaBasic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="xunHuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaBasic.xunHuan" />
       <module name="TestCode" />
@@ -100,9 +122,11 @@
       <item itemvalue="Application.yunSuanFu" />
       <item itemvalue="Application.yunSuanFu (1)" />
       <item itemvalue="Application.xunHuan" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.xunHuan" />
         <item itemvalue="Application.yunSuanFu (1)" />
       </list>
@@ -123,6 +147,8 @@
       <workItem from="1628423984653" duration="1733000" />
       <workItem from="1628522641892" duration="1171000" />
       <workItem from="1628604244369" duration="1760000" />
+      <workItem from="1628646968330" duration="1435000" />
+      <workItem from="1629124283537" duration="3120000" />
     </task>
     <task id="LOCAL-00001" summary="package化">
       <created>1628424736118</created>
@@ -145,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628604581504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0810家里2">
+      <created>1628647039526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628647039526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +200,8 @@
     <MESSAGE value="package化" />
     <MESSAGE value="循环" />
     <MESSAGE value="0810家里" />
-    <option name="LAST_COMMIT_MESSAGE" value="0810家里" />
+    <MESSAGE value="0810家里2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0810家里2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1628523827872">
@@ -186,35 +220,43 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="514" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1628605394587" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1628647163048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1628647163048" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1628346689190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628346689190" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1628610356682">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1629131440837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628610356682" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1628610356682">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629131440837" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1629131440836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628610356682" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1628610356682">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629131440836" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1629131440836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628610356682" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1628610356682">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629131440836" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1629131440837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628610356682" />
-    <state x="57" y="65" key="SettingsEditor" timestamp="1628523438586">
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629131440837" />
+    <state x="57" y="65" key="SettingsEditor" timestamp="1629126598856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1628153581840" />
-    <state x="57" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628523438586" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1628604653973">
+    <state x="57" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1629126598856" />
+    <state x="503" y="161" width="543" height="524" key="StructurePopup" timestamp="1629125437853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628604653973" />
+    <state x="503" y="161" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1629125437853" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1628647198040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628647198040" />
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628523443334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

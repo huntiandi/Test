@@ -5,13 +5,13 @@ public class test {
         System.out.println("gfdgfd");
         test2 ttttt = new test2();
         ttttt.main2();
-        Dog dog = new Dog("bibo");
+        Dog dog = new readDog("bibo");
         System.out.println(dog.getName());
         dog.setName("james");
         System.out.println(dog.getName());
         String clazz = Dog.clazz;
         System.out.println(clazz);
-
+        dog.eat();
     }
 
 }
