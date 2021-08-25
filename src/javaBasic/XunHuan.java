@@ -1,6 +1,6 @@
 package javaBasic;
 
-public class xunHuan {
+public class XunHuan {
     /**
      * java中的循环结构，包括for循环，while循环，do...while循环
      * break 结束循环，continue 跳过这一条

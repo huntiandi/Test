@@ -1,6 +1,6 @@
 package javaBasic;
 
-public class yunSuanFu {
+public class YunSuanFu {
 
     public static void main(String[] args) {
         /**

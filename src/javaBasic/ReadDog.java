@@ -1,9 +1,9 @@
 package javaBasic;
 
-public class readDog extends Dog{
+public class ReadDog extends Dog{
 
 
-    public readDog(String empname) {
+    public ReadDog(String empname) {
         super(empname);
     }
 

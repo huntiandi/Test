@@ -1,11 +1,11 @@
 package javaBasic;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
         System.out.println("gfdgfd");
         test2 ttttt = new test2();
         ttttt.main2();
-        Dog dog = new readDog("bibo");
+        Dog dog = new ReadDog("bibo");
         System.out.println(dog.getName());
         dog.setName("james");
         System.out.println(dog.getName());
