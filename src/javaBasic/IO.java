@@ -36,7 +36,7 @@ public class IO {
 //        }
 
         //将11.txt复制到22.txt，实战中从ftp将文件复制到本地
-//        try (InputStream ins = new FileInputStream("D:\\test\\11.txt"); OutputStream ous = new FileOutputStream("D:\\test\\22.txt")){
+//        try (InputStream ins = new FileInputStream("D:\\IOtest\\11.txt"); OutputStream ous = new FileOutputStream("D:\\IOtest\\22.txt")){
 //
 //            byte[] bytes = new byte[50];
 //            int bs = 0;
