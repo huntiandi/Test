@@ -1,4 +1,4 @@
-package javaOOP;
+package java.oop;
 
 /**
  * @ProjectName: WorkSpace

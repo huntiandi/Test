@@ -10,4 +10,4 @@ git pull origin master拉去远端分支//要写出远端名和分支不能直�
 git stash pop stash@{0} 还原之前隐藏的文件
 
 git的token
-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
+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
