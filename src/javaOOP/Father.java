@@ -7,7 +7,7 @@ package javaOOP;
  * @data: 2021/9/1 16:31
  */
 public class Father {
-    private int n;
+    public int n;
 
     public Father() {
         System.out.println("我是无参 ");
@@ -17,18 +17,17 @@ public class Father {
         System.out.println(" 我是有参,参数是：" + n);
         this.n = n;
     }
-}
 
-class Son extends Father {
-    Son() {
-        super(100);//子类会默认调用父类的无参构造器，若父类有有参构造器，则应该是使用super在子类
-                      //构造器中调用
+    public void run() throws ArithmeticException{
+        System.out.println("  奔跑ing......");
     }
 
-}
+    public void run(String name){
+        System.out.println("上世纪跑的最快的是 " + name);
+    }
 
-class test {
-    public static void main(String[] args) {
-        Son sup = new Son();
+    public static void sleep() {//被static修饰不可以被重写，但可以被子类重新声明；final都不行
+        System.out.println("..睡觉..");
     }
 }
+
