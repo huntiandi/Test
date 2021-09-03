@@ -1,4 +1,4 @@
-package java.oop;
+package oop;
 
 public class Son extends Father {
     public Son(int n) {

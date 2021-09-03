@@ -1,4 +1,4 @@
-package java.oop;
+package oop;
 
 public class test {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class test {
 //        fatherSon.sleep();//被static修饰，所以不可以被重写，所以执行父类方法
         sup.sleep();//可以被重新声明，所以自己执行自己的方法
 //        fatherSon.eat();编译不通过，因为接收类型时father，但是father中并没有eat()方法
-        color color = java.oop.color.BLUE;
+        color color = oop.color.BLUE;
         System.out.println("color = " + color);
 
         for (color colors:color.values()) {

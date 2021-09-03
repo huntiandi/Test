@@ -1,6 +1,8 @@
-package java.basic;
+package basic;
 
-public class ReadDog extends Dog{
+import basic.Dog;
+
+public class ReadDog extends Dog {
 
 
     public ReadDog(String empname) {
