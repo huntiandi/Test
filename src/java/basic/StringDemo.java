@@ -14,7 +14,8 @@ public class StringDemo {
 
         //StringBuffer
         StringBuffer stringBuffer = new StringBuffer();//线程安全(加锁了)，速度慢，可更改
-        stringBuffer.append("sad");
+        stringBuffer.append("sadwqwqfrq");
+        stringBuffer.delete(2,4);//从x开始到y-1结束
         System.out.println("stringBuffer = " + stringBuffer);
     }
 }

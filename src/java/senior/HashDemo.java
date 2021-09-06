@@ -1,5 +1,6 @@
 package senior;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.TreeSet;
 
@@ -21,7 +22,11 @@ public class HashDemo {
         System.out.println(hset);
         System.out.println(hset.contains("china"));//判断元素是否存在于集合中
 
-        //hashMap
-
+        //hashMap,详见collection
+        HashMap<Integer,String> map = new HashMap<Integer,String>();
+        map.put(1,"google");
+        map.put(2,"baidu");
+        map.put(3,"fire");
+        System.out.println(map);
     }
 }
