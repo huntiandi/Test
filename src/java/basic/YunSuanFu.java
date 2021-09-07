@@ -9,8 +9,10 @@ public class YunSuanFu {
         int a = 2;
         int b = 2;
 //        int y = 2*b++;
-        System.out.println("b = " + b++);//b++先取值所以输出2
-        System.out.println("b = " + b++);//这个时候上一行b已经被加过了所以时3
+        b=b++;
+        System.out.println("b = " + b);//b++先取值所以输出2
+        b++;//除了这种单独占一行的后++都是原来的值
+        System.out.println("b = " + b);//这个时候上一行b已经被加过了所以时3
         System.out.println("a = " + ++a);//++a先自增再取值，所以输出的时3
 
         /**
@@ -62,5 +64,14 @@ public class YunSuanFu {
         //运算优先级，和正常的运算优先级一样
         int z = (1+2)+(3+4)*2;
         System.out.println(z);
+
+        //例题
+        boolean x = true;
+        boolean y = false;
+        short zz = 46;
+        if ((zz++==46)&&(y=true))zz++;
+        if ((x=false)||(++zz==49))zz++;
+        System.out.println("zz的值为"+zz);
+
     }
 }
