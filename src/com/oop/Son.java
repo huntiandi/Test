@@ -1,7 +1,11 @@
-package java.oop;
+package com.oop;
 
 public class Son extends Father {
+   public Son(){
+       System.out.printf("子类无参");
+   }
     public Son(int n) {
+//       this();
         System.out.println("son类star");
 //        super(100);//子类会默认调用父类的无参构造器，若父类有有参构造器，则应该是使用super在子类
         //构造器中调用

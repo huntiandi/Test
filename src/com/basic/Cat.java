@@ -1,4 +1,4 @@
-package java.basic;
+package com.basic;
 
 public interface Cat {
     public void eat();//接口中的方法会被隐式的指定为 public abstract

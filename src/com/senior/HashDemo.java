@@ -1,4 +1,4 @@
-package java.senior;
+package com.senior;
 
 import java.util.HashMap;
 import java.util.HashSet;

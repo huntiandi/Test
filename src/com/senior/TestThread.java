@@ -1,4 +1,4 @@
-package java.senior;
+package com.senior;
 
 /**
  * @ProjectName: WorkSpace

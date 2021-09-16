@@ -1,4 +1,4 @@
-package java.basic;
+package com.basic;
 
 public class YunSuanFu {
 
