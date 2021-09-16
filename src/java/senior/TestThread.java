@@ -11,6 +11,7 @@ public class TestThread {
         RunnableDemo rd = new RunnableDemo("james");
         rd.start();//run就直接执行完再走下面的，start要抢
         int x= 8;
-        System.out.println(x++);
+        String s = "hello,world\\0";
+        System.out.println(s);
     }
 }
